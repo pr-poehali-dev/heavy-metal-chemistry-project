@@ -592,7 +592,7 @@ export default function Index() {
             </div>
             
             <div className="border-t border-primary-foreground/20 pt-6 text-center">
-              <p className="text-sm">© 2024 Образовательный ресурс по тяжёлым металлам</p>
+              <p className="text-sm">© 2025 Образовательный ресурс по тяжёлым металлам</p>
               <p className="text-xs mt-2 opacity-80">Материал подготовлен для образовательных целей</p>
             </div>
           </div>
