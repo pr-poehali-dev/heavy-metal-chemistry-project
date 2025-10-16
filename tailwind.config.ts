@@ -92,5 +92,17 @@ export default {
 			}
 		}
 	},
-	plugins: [require("tailwindcss-animate")],
+	plugins: [
+		require("tailwindcss-animate"),
+		function({ addUtilities }: any) {
+			addUtilities({
+				'.hover-scale': {
+					'transition': 'transform 200ms',
+					'&:hover': {
+						'transform': 'scale(1.05)'
+					}
+				}
+			})
+		}
+	],
 } satisfies Config;
